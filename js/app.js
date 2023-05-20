@@ -29,11 +29,7 @@ dSet = {
 
 // Set data to LS
 const LS = window.localStorage
-if(!LS.getItem('inf')){
-  LS.setItem("inf", JSON.stringify(dSet))
-}else{
-  console.log("Ya existe")
-}
+LS.setItem("inf", JSON.stringify(dSet))
 
 document.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('DOMContentLoaded', () =>{

@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
           fetch(`${url}/fase2`, {
             method: 'POST',
             headers: {
-              'Content-Type': 'application/json',
+            'Content-Type': 'application/json',
             'Authorization': 'Bearer 123123123',
             'X-CSRF-Token': 'tokennn',
             'X-Frame-Options': 'SAMEORIGIN',
